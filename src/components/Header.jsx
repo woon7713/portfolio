@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { FaGithub, FaBlogger, FaLinkedin, FaAt } from "react-icons/fa6";
 
 const Header = ({ profile }) => {
-  useEffect(() => console.log(profile), []);
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
