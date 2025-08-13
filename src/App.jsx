@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import WritingSection from "./components/WritingSection";
 import portfolioData from "./portfolio-data.json";
+import ContactSection from "./components/ContactSection";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         talks={portfolioData.talks}
         openSource={portfolioData.open_source}
       />
+      <ContactSection contact={portfolioData.contact} />
       <footer className="py-8 px-4 text-center">
         <p className="text-sm">
           © 2025 {portfolioData.profile.name}. All right reserved.
