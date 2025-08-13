@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Project-specific ignores
-src/portfolio-data.json
+#src/portfolio-data.json
